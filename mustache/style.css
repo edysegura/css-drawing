@@ -10,6 +10,10 @@
     300px 0 0 0 currentColor;
 }
 
+.mustache:hover {
+  color: pink;
+}
+
 .mustache::before {
   content: "";
   position: absolute;
