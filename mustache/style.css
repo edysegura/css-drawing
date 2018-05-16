@@ -2,10 +2,36 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  background: transparent;
   position: absolute;
+  left: 100px;
   color: black;
   box-shadow:
-    180px 0 0 0 currentColor,
-    330px 0 0 0 currentColor;
+    150px 240px 0 0 currentColor,
+    300px 240px 0 0 currentColor;
+}
+
+.mustache::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 120px;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  border-radius: 0 0 0 100%;
+  transform: rotate(-40deg);
+  transform-origin: right 210px;
+}
+
+.mustache::after {
+  content: "";
+  position: absolute;
+  left: 390px;
+  top: 120px;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  border-radius: 0 0 100% 0;
+  transform: rotate(40deg);
+  transform-origin: left 210px;
 }
