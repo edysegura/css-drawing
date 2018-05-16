@@ -2,9 +2,10 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  background: transparent;
   position: absolute;
   color: black;
   box-shadow:
-    150px 240px 0 0 currentColor,
-    300px 240px 0 0 currentColor;
+    180px 0 0 0 currentColor,
+    330px 0 0 0 currentColor;
 }
